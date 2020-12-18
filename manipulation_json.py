@@ -1,7 +1,7 @@
 import json
 
 dic = {
-    "nome": "Leo",
+    "nome": "Jhow",
     "linguagem": "Python",
     "similar": ["C", "lisp"],
     "users": 10000
@@ -17,3 +17,4 @@ with open("./dados.json", "r") as file:
     datas = json.loads(text)
 
 print(datas)
+print(datas["nome"])
